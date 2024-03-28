@@ -26,8 +26,10 @@ app.use(express.static('public'));
 let chosenCharacter;
 let characterOfTheDay;
 
+const charactersPath = path.join(__dirname, 'characters.json');
+
 app.get('/', (req, res) => {
-    fs.readFile('characters.json', 'utf8', (err, data) => {
+    fs.readFile(charactersPath, 'utf8', (err, data) => {
         if (err) {
             console.error(err);
             return res.status(500).send('An error occurred while reading the file.');
@@ -45,7 +47,7 @@ app.use('/images', express.static(path.join(__dirname, 'images')));
 
 
 app.get('/search', (req, res) => {
-    fs.readFile('characters.json', 'utf8', (err, data) => {
+    fs.readFile(charactersPath, 'utf8', (err, data) => {
         if (err) {
             console.error(err);
             return res.status(500).send('An error occurred while reading the file.');
@@ -67,7 +69,7 @@ app.get('/search', (req, res) => {
 });
 
 function getCharacterData(name) {
-    const characters = JSON.parse(fs.readFileSync('characters.json', 'utf8'));
+    const characters = JSON.parse(fs.readFileSync(charactersPath, 'utf8'));
     return characters[name];
 }
 
@@ -94,7 +96,7 @@ app.get('/chooseCharacter', (req, res) => {
 });
 
 app.get('/comparison', (req, res) => {
-    fs.readFile('characters.json', 'utf8', (err, data) => {
+    fs.readFile(charactersPath, 'utf8', (err, data) => {
         if (err) {
             console.error(err);
             return res.status(500).send('An error occurred while reading the file.');
