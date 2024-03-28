@@ -1,19 +1,3 @@
-// Step 1: Set up a new project directory (you've done this already)
-
-// Step 2: Initialize a new Node.js project
-// Run `npm init -y` in your terminal
-
-// Step 3: Install Express.js
-// Run `npm install express` in your terminal
-
-// Step 4: Install EJS
-// Run `npm install ejs` in your terminal
-
-// Step 5: Create a route to serve the main page
-// Step 6: Read the characters.json file and pass the data to the EJS template
-// Step 7: Create an EJS template to display the character data
-// Step 8: Start the Express.js server
-
 const { name } = require('ejs');
 const express = require('express');
 const fs = require('fs');
@@ -26,7 +10,7 @@ app.use(express.static('public'));
 let chosenCharacter;
 let characterOfTheDay;
 
-const charactersPath = path.join(__dirname, 'characters.json');
+const charactersPath = path.join(__dirname, 'public/characters.json');
 
 app.get('/', (req, res) => {
     fs.readFile(charactersPath, 'utf8', (err, data) => {
