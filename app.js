@@ -11,7 +11,7 @@ let chosenCharacter;
 let characterOfTheDay;
 
 const charactersPath = path.join(__dirname, 'public/characters.json');
-app.set('views', 'views');
+app.set('views', __dirname + 'views');
 
 app.get('/', (req, res) => {
     fs.readFile(charactersPath, 'utf8', (err, data) => {
