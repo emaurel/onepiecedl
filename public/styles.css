@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/backrground.png'); /* Add a semi-transparent black overlay to the image */
+    background-size: cover; /* Make the image cover the entire body */
+    background-position: center; /* Center the image */
+    position: relative; /* Make the body a relative positioning context */
+}
+
+
+#search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+    max-width: 600px; /* Adjust this value to suit your needs */
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+th {
+    padding: 10px; /* Add some padding to all table cells */
+    text-align: left; /* Align text to the left */
+    max-height: 30px; /* Set a maximum height for the table cells */
+    max-width: 100px; 
+    margin: 10px 0; /* Add some space outside the elements */
+    border-radius: 5px; /* Make the borders smooth */
+    word-wrap: break-word;
+    text-align: center;
+}
+
+td {
+    border:rgba(0, 0, 0, 0.5) 1px solid;
+    text-align: left; /* Align text to the left */
+    max-height: 30px; /* Set a maximum height for the table cells */
+    max-width: 100px; 
+    margin: 10px 0; /* Add some space outside the elements */
+    border-radius: 5px; /* Make the borders smooth */
+    word-wrap: break-word;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; /* Add a background color to headers */
+}
+
+#search-bar {
+    position: relative; /* Make the search input a relative positioning context */
+}
+
+#characters {
+    position: absolute; /* Position the results absolutely relative to the search input */
+    left: 0; /* Align the results with the left edge of the search input */
+    top: 100%; /* Position the results directly below the search input */
+    width: 100%; /* Make the results take up the full width of the search input */
+    background-color: #fff; /* Add a background color to the results */
+    border: 1px solid #ccc; /* Add a border to the results */
+    z-index: 1; /* Stack the results above other elements */
+}
+
+.character {
+    border: 1px solid black;
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Center the items vertically */
+    gap: 10px; /* Add a gap between the image and the name */
+    width: 100%; /* Make the divs take up the full width of their parent */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.character:hover {
+    background-color: #f2f2f2; /* Change the background color of the characters when they're hovered over */
+    cursor: pointer; /* Change the cursor to a pointer when the characters are hovered over */
+}
+
+.image {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: 100%; /* Make the image take up the full height of its container */
+    object-fit: cover; /* Scale the image to cover the content box, while maintaining its aspect ratio */
+}
+
+.table-container {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center the table horizontally */
+    align-items: center; /* Center the table vertically */
+    width: 100%; /* Make the container take up the full width of its parent */
+}
+
+table {
+    width: 80%; /* Make the table take up 80% of the width of its container */
+    max-width: 800px; /* Set a maximum width for the table */
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; 
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.up {
+    background-image: url('/images/up.png');
+    background-size: contain; /* Scale the image down to fit within the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.down {
+    background-image: url('/images/down.png');
+    background-size: contain; /* Scale the image down to fit within the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}

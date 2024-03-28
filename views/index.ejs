@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>One Piece Characters</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="search-form">
+        <div id="search-bar">
+            <input type="text" , id="search-input" placeholder="Search characters...">
+            <button type="submit">Search</button>
+            <div id="characters">
+                <% for(let character in characters) { %>
+                    <h2>
+                        <%= character %>
+                    </h2>
+
+                    <% } %>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <script>
+        let foundCharacterName;
+        let chosenCharacters = [];
+
+        $(document).on('click', '.character', function () {
+            $('#search-input').val('');
+            $('#characters').empty();
+            foundCharacterName = $(this).find('h2').text();
+            setCharacter();
+        });
+
+        $(document).keydown(function (event) {
+            if (event.key == "Escape") {
+                $('#search-input').val('');
+                $('#characters').empty();
+            }
+        });
+
+
+
+        function setCharacter() {
+            if (foundCharacterName) {
+                chosenCharacters.push(foundCharacterName);
+                $.get('/chooseCharacter', { foundCharacterName }, function (data) {
+                    if (data.error) {
+                        alert(data.error);
+                    } else {
+                        $.get('/character', { foundCharacterName }, function (characterData) {
+                            console.log(characterData);
+                            $.get('/comparison', function (comparisonData) {
+                                if ($('table').length === 0) {
+                                    // If the table doesn't exist, create it
+                                    $('body').append('<table><thead></thead><tbody></tbody></table>');
+                                    // Add the properties as headers
+                                    $('thead').append('<th>character</th>'); // Add an empty header for the images column
+                                    for (let property in comparisonData) {
+                                        $('thead').append('<th>' + property + '</th>');
+                                    }
+                                }
+
+                                // Add a new row
+                                let row = $('<tr></tr>');
+                                row.append('<td><img class=image src="/images/characters/' + characterData.imageFile + '" alt="' + characterData.names[0] + '"></td>');
+                                for (let property in comparisonData) {
+                                    let valueClass;
+                                    let direction = "";
+                                    let value = characterData[property];
+                                    if (typeof value == 'object' && value !== null && value.constructor === Array) {
+                                        value = value.join(' ');
+                                        console.log(value);
+                                    }
+
+                                    if (comparisonData[property].includes("true")) {
+                                        valueClass = 'green';
+                                    } else if (comparisonData[property].includes("close")) {
+                                        valueClass = 'orange';
+                                    } else if (comparisonData[property].includes("false")) {
+                                        valueClass = 'red';
+                                    }
+                                    if (comparisonData[property].includes("up")) {
+                                        direction = 'up';
+                                    } else if (comparisonData[property].includes("down")) {
+                                        direction = 'down';
+                                    }
+
+                                    row.append('<td class="' + valueClass + " " + direction + '">' + value + '</td>');
+                                }
+                                $('tbody').prepend(row);
+
+                            });
+                        });
+                    }
+                    foundCharacterName = null;
+
+                });
+            }
+        }
+
+        $(' #search-input').on('input', function () {
+            if ($(this).val() === '') {
+                $('#characters').empty();
+            }
+            const query = $(this).val(); $.get('/search', { query }, function
+                (data) {
+                $('#characters').empty();
+                foundCharacterName = null;
+                for (let character in data) {
+                    if (chosenCharacters.includes(character)) {
+                        continue;
+                    }
+                    if (data[character].imageFile) {
+                        $('#characters').append('<div class="character"><img class="logo" src="/images/characters/' + data[character].imageFile + '" alt="' + character + '"><h2>' + character + '</h2></div>');
+
+                    } else {
+                        $('#characters').append('<p>No image available</p>');
+                    }
+                    if (foundCharacterName == null) {
+                        foundCharacterName = character;
+                    }
+                }
+            });
+        });
+        $('#search-form').on('submit', function (e) {
+            e.preventDefault();
+            $('#search-input').val('');
+            $('#characters').empty();
+            setCharacter();
+
+        });
+    </script>
+</body>

@@ -1,0 +1,1159 @@
+{
+    "Monkey D. Luffy": {
+        "names": [
+            "Monkey D Luffy",
+            "Luffy",
+            "Mugiwara"
+        ],
+        "imageFile": "luffy.jpg",
+        "gender": "male",
+        "age": 19,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Roronoa Zoro": {
+        "names": [
+            "Roronoa Zoro",
+            "Zoro"
+        ],
+        "imageFile": "zoro.jpg",
+        "gender": "male",
+        "age": 21,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "3",
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Nami": {
+        "names": [
+            "Nami"
+        ],
+        "imageFile": "nami.jpg",
+        "gender": "female",
+        "age": 20,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "weather"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Usopp": {
+        "names": [
+            "Usopp"
+        ],
+        "imageFile": "usopp.jpg",
+        "gender": "male",
+        "age": 19,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sniper"
+        ],
+        "haki": [
+            "observation"
+        ]
+    },
+    "Sanji": {
+        "names": [
+            "Sanji",
+            "Vinsmoke Sanji"
+        ],
+        "imageFile": "sanji.jpg",
+        "gender": "male",
+        "age": 21,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "leg"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Tony Tony Chopper": {
+        "names": [
+            "Tony Tony Chopper",
+            "Chopper"
+        ],
+        "imageFile": "chopper.jpg",
+        "gender": "male",
+        "age": 17,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": "reindeer",
+        "occupation": "pirate",
+        "fighting style": [
+            "fist"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Nico Robin": {
+        "names": [
+            "Nico Robin",
+            "Robin"
+        ],
+        "imageFile": "robin.jpg",
+        "gender": "female",
+        "age": 30,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Franky": {
+        "names": [
+            "Franky",
+            "Cutty Flam"
+        ],
+        "imageFile": "franky.jpg",
+        "gender": "male",
+        "age": 36,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human",
+            "cyborg"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "lasers"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Brook": {
+        "names": [
+            "Brook",
+            "soul king"
+        ],
+        "imageFile": "brook.jpg",
+        "gender": "male",
+        "age": 90,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword",
+            "ice"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Jinbe": {
+        "names": [
+            "Jinbe"
+        ],
+        "imageFile": "jinbe.jpg",
+        "gender": "male",
+        "age": 46,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "fishman"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "water"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Trafalgar D. Water Law": {
+        "names": [
+            "Trafalgar D. Water Law",
+            "Law"
+        ],
+        "imageFile": "law.jpg",
+        "gender": "male",
+        "age": 26,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Buggy": {
+        "names": [
+            "Buggy",
+            "Buggy the Clown"
+        ],
+        "imageFile": "buggy.jpg",
+        "gender": "male",
+        "age": 39,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Dracule Mihawk": {
+        "names": [
+            "Dracule Mihawk",
+            "Hawk Eyes",
+            "Mihawk"
+        ],
+        "imageFile": "mihawk.jpg",
+        "gender": "male",
+        "age": 43,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Donquixote Doflamingo": {
+        "names": [
+            "Donquixote Doflamingo",
+            "Joker",
+            "Doflamingo"
+        ],
+        "imageFile": "doflamingo.jpg",
+        "gender": "male",
+        "age": 41,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Boa Hancock": {
+        "names": [
+            "Boa Hancock",
+            "Hancock"
+        ],
+        "imageFile": "hancock.jpg",
+        "gender": "female",
+        "age": 31,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "leg"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Bartholomew Kuma": {
+        "names": [
+            "Bartholomew Kuma",
+            "Kuma"
+        ],
+        "imageFile": "kuma.jpg",
+        "gender": "male",
+        "age": 47,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "buccaneer"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Edward Newgate": {
+        "names": [
+            "Edward Newgate",
+            "Whitebeard"
+        ],
+        "imageFile": "whitebeard.jpg",
+        "gender": "male",
+        "age": 72,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Portgas D. Ace": {
+        "names": [
+            "Portgas D. Ace",
+            "Ace"
+        ],
+        "imageFile": "ace.jpg",
+        "gender": "male",
+        "age": 20,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Shanks": {
+        "names": [
+            "Shanks",
+            "Red-Haired Shanks"
+        ],
+        "imageFile": "shanks.jpg",
+        "gender": "male",
+        "age": 39,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Benn Beckman": {
+        "names": [
+            "Benn Beckman",
+            "Beckman"
+        ],
+        "imageFile": "beckman.jpg",
+        "gender": "male",
+        "age": 50,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "gun"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Lucky Roo": {
+        "names": [
+            "Lucky Roo",
+            "Roo"
+        ],
+        "imageFile": "roo.jpg",
+        "gender": "male",
+        "age": 40,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "gun"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Yasopp": {
+        "names": [
+            "Yasopp"
+        ],
+        "imageFile": "yasopp.jpg",
+        "gender": "male",
+        "age": 45,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sniper"
+        ],
+        "haki": [
+            "observation"
+        ]
+    },
+    "Nico Olvia": {
+        "names": [
+            "Nico Olvia",
+            "Olvia"
+        ],
+        "imageFile": "olvia.jpg",
+        "gender": "female",
+        "age": 40,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "archeologist",
+        "fighting style": [
+            "unknown"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Kuina": {
+        "names": [
+            "Kuina"
+        ],
+        "imageFile": "kuina.jpg",
+        "gender": "female",
+        "age": 9,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "civilian",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Kaido": {
+        "names": [
+            "Kaido",
+            "Kaido of the Beasts"
+        ],
+        "imageFile": "kaido.jpg",
+        "gender": "male",
+        "age": 59,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "oni"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "kanabo",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Big Mom": {
+        "names": [
+            "Big Mom",
+            "Charlotte Linlin"
+        ],
+        "imageFile": "bigmom.jpg",
+        "gender": "female",
+        "age": 68,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "weather",
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Katakuri": {
+        "names": [
+            "Katakuri",
+            "Charlotte Katakuri"
+        ],
+        "imageFile": "katakuri.jpg",
+        "gender": "male",
+        "age": 48,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Blackbeard": {
+        "names": [
+            "Blackbeard",
+            "Marshall D. Teach"
+        ],
+        "imageFile": "blackbeard.jpg",
+        "gender": "male",
+        "age": 40,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Gol D Roger": {
+        "names": [
+            "Gol D Roger",
+            "Gold Roger"
+        ],
+        "imageFile": "roger.jpg",
+        "gender": "male",
+        "age": 53,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Silvers Rayleigh": {
+        "names": [
+            "Silvers Rayleigh",
+            "Rayleigh"
+        ],
+        "imageFile": "rayleigh.jpg",
+        "gender": "male",
+        "age": 78,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Nefertari Vivi": {
+        "names": [
+            "Nefertari Vivi",
+            "Vivi"
+        ],
+        "imageFile": "vivi.jpg",
+        "gender": "female",
+        "age": 18,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "princess",
+        "fighting style": [
+            "none"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Kozuki Oden": {
+        "names": [
+            "Kozuki Oden",
+            "Oden"
+        ],
+        "imageFile": "oden.jpg",
+        "gender": "male",
+        "age": 39,
+        "devil fruit user": "no",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "sword",
+            "2"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Kozuki Momonosuke": {
+        "names": [
+            "Kozuki Momonosuke",
+            "Momonosuke"
+        ],
+        "imageFile": "momonosuke.jpg",
+        "gender": "male",
+        "age": 8,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "devil fruit"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Kinemon": {
+        "names": [
+            "Kinemon"
+        ],
+        "imageFile": "kinemon.jpg",
+        "gender": "male",
+        "age": 47,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "sword",
+            "2"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Kanjuro": {
+        "names": [
+            "Kanjuro"
+        ],
+        "imageFile": "kanjuro.jpg",
+        "gender": "male",
+        "age": 39,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "actor",
+        "fighting style": [
+            "sword",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Raizo": {
+        "names": [
+            "Raizo"
+        ],
+        "imageFile": "raizo.jpg",
+        "gender": "male",
+        "age": 44,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "ninja",
+        "fighting style": [
+            "ninja",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Kikunojo": {
+        "names": [
+            "Kikunojo"
+        ],
+        "imageFile": "kikunojo.jpg",
+        "gender": "transgender",
+        "age": 22,
+        "devil fruit user": "no",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Kawamatsu": {
+        "names": [
+            "Kawamatsu"
+        ],
+        "imageFile": "kawamatsu.jpg",
+        "gender": "male",
+        "age": 41,
+        "devil fruit user": "no",
+        "first appearance": "post time skip",
+        "species": [
+            "minks"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Ashura Doji": {
+        "names": [
+            "Ashura Doji",
+            "Ashura"
+        ],
+        "imageFile": "ashura.jpg",
+        "gender": "male",
+        "age": 56,
+        "devil fruit user": "no",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "sword"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Yamato": {
+        "names": [
+            "yamato"
+        ],
+        "imageFile": "yamato.jpg",
+        "gender": "female",
+        "age": 28,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human",
+            "oni"
+        ],
+        "occupation": "samurai",
+        "fighting style": [
+            "kanabo",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Bellamy": {
+        "names": [
+            "bellamy"
+        ],
+        "imageFile": "bellamy.jpg",
+        "gender": "male",
+        "age": 28,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament"
+        ]
+    },
+    "Sabo": {
+        "names": [
+            "sabo"
+        ],
+        "imageFile": "sabo.jpg",
+        "gender": "male",
+        "age": 22,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "revolutionary",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Sengoku": {
+        "names": [
+            "sengoku"
+        ],
+        "imageFile": "sengoku.jpg",
+        "gender": "male",
+        "age": 77,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Akainu": {
+        "names": [
+            "akainu",
+            "sakazuki"
+        ],
+        "imageFile": "akainu.jpg",
+        "gender": "male",
+        "age": 55,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "fist",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Kizaru": {
+        "names": [
+            "kizaru",
+            "borsalino"
+        ],
+        "imageFile": "kizaru.jpg",
+        "gender": "male",
+        "age": 58,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "leg",
+            "sword",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Fujitora": {
+        "names": [
+            "fujitora",
+            "issho"
+        ],
+        "imageFile": "fujitora.jpg",
+        "gender": "male",
+        "age": 54,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "sword",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Garp": {
+        "names": [
+            "garp",
+            "monkey d garp"
+        ],
+        "imageFile": "garp.jpg",
+        "gender": "male",
+        "age": 78,
+        "devil fruit user": "no",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "fist"
+        ],
+        "haki": [
+            "armament",
+            "observation",
+            "conqueror"
+        ]
+    },
+    "Aokiji": {
+        "names": [
+            "aokiji",
+            "kuzan"
+        ],
+        "imageFile": "aokiji.jpg",
+        "gender": "male",
+        "age": 49,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "pirate",
+        "fighting style": [
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Smoker": {
+        "names": [
+            "smoker"
+        ],
+        "imageFile": "smoker.jpg",
+        "gender": "male",
+        "age": 49,
+        "devil fruit user": "yes",
+        "first appearance": "pre time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "marine",
+        "fighting style": [
+            "fist",
+            "jitte",
+            "devil fruit"
+        ],
+        "haki": [
+            "armament",
+            "observation"
+        ]
+    },
+    "Cesar Clown": {
+        "names": [
+            "cesar clown",
+            "cesar"
+        ],
+        "imageFile": "cesar.jpg",
+        "gender": "male",
+        "age": 44,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "scientist",
+        "fighting style": [
+            "devil fruit"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Carrot": {
+        "names": [
+            "carrot"
+        ],
+        "imageFile": "carrot.jpg",
+        "gender": "female",
+        "age": 15,
+        "devil fruit user": "no",
+        "first appearance": "post time skip",
+        "species": [
+            "minks"
+        ],
+        "occupation": "princess",
+        "fighting style": [
+            "fist",
+            "electro"
+        ],
+        "haki": [
+            "none"
+        ]
+    },
+    "Vegapunk": {
+        "names": [
+            "vegapunk",
+            "dr vegapunk",
+            "stella",
+            "shaka",
+            "york",
+            "lilith",
+            "atlas",
+            "pythagoras",
+            "edison"
+        ],
+        "imageFile": "vegapunk.jpg",
+        "gender": "male",
+        "age": 65,
+        "devil fruit user": "yes",
+        "first appearance": "post time skip",
+        "species": [
+            "human"
+        ],
+        "occupation": "scientist",
+        "fighting style": [
+            "none"
+        ],
+        "haki": [
+            "none"
+        ]
+    }
+}
