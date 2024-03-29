@@ -59,6 +59,7 @@
                         $.get('/character', { foundCharacterName }, function (characterData) {
                             console.log(characterData);
                             $.get('/comparison', function (comparisonData) {
+                                console.log(comparisonData);
                                 if ($('table').length === 0) {
                                     // If the table doesn't exist, create it
                                     $('body').append('<table><thead></thead><tbody></tbody></table>');
